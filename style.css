@@ -1,0 +1,56 @@
+/* Basic Reset and Box Sizing */
+* {
+    box-sizing: border-box; /* Ensures padding and borders are included in element's total width and height */
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling (Page Background and Font) */
+body {
+    font-family: 'Arial', sans-serif; /* Sets the default font for the entire page */
+    background-color: #f4f4f4; /* Light gray background color for the page */
+    color: #333; /* Default text color */
+    line-height: 1.6; /* Increases line height for better readability */
+    padding: 20px;
+}
+
+/* Headings (h1, h2) */
+h1, h2 {
+    color: #00539f; /* A specific blue color for headings */
+    margin-bottom: 15px; /* Adds space below headings */
+    text-shadow: 2px 2px 2px black; /* Adds a shadow effect to the text */
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #ff9500; /* Orange color for links */
+    text-decoration: none; /* Removes the default underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds an underline when the user hovers over a link */
+}
+
+/* A custom class for a container */
+.container {
+    max-width: 800px; /* Limits the container width on large screens */
+    margin: 0 auto; /* Centers the container horizontally on the page */
+    background-color: #ffffff; /* White background for the content area */
+    padding: 20px;
+    border: 1px solid #ddd; /* A subtle border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* A custom ID selector for a specific element */
+#main-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center; /* Centers the header text */
+}
